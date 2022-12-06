@@ -6,10 +6,10 @@ export default function Footer() {
     <>
     <div className="footmain">
       <div className='footer'>
-        BOBBY SAUNDERS {currentYear}
+        ARCHIE BLOHM {currentYear}
       </div>
       <div className='rightFooter'>
-        @bobbysaunders   Copyright ©
+        @archieblohm   Copyright ©
       </div>
     </div>
   

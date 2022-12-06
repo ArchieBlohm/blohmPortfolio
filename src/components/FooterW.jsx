@@ -6,10 +6,10 @@ export default function FooterW() {
     <>
     <div className='footmainw'>
       <div className='footerW'>
-        BOBBY SAUNDERS {currentYear}
+        ARCHIE BLOHM {currentYear}
       </div>
       <div className='rightFooterW'>
-        @bobbysaunders   Copyright ©
+        @archieblohm   Copyright ©
       </div>
     </div>
     </>

@@ -453,7 +453,7 @@ input[type="submit"] {
 
 
 
-@media screen and (min-width: 200px) and (max-width: 1324px) {
+@media screen and (min-width: 200px) and (max-width: 1200px) {
 
   .carousel2 {
     margin-left: 0px;
@@ -568,37 +568,31 @@ input[type="submit"] {
     justify-content: center;
   }
   
-  .rightside a {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    color: black;
-    letter-spacing: 0.5px;
-    text-decoration: none;
-    font-size: 16px;
+  .rightside ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 40px;
   }
 
-
-
-  
-  .leftsideW {
-    height: 0px;
-  }
-  
-  .leftsideW a {
+  .leftsideW :link {
     font-family: 'Poppins', sans-serif;
-    text-align: center;
     color: white;
-    text-align: center;
-    padding-left: 130px;
-    text-decoration: none;
+    line-height: 200px;
     font-size: 60px;
-    line-height: 3;
     font-weight: 800;
   }
 
+  
+  .leftsideW .button-solidW {
+    height: 10px;
+    align-items: center;
+  }
+  
   .rightsideW {
-    float: left;
-    padding-left: 9%;
+    align-items: center;
+    padding-left: 0%;
     text-decoration: none;
     height: 300px;
     display: flex;
@@ -629,10 +623,9 @@ input[type="submit"] {
     letter-spacing: 5px;
     font-weight:500;
     color: white;
-    text-align: left;
+    text-align: center;
     padding-left: 10%;
-    float: left;
-    height: 60px;
+
     
   }
   
@@ -641,8 +634,7 @@ input[type="submit"] {
     letter-spacing: 5px;
     font-weight:500;
     color: white;
-    float: left;
-    padding-right: 37%;
+   
   }
 
   .formContainer {
@@ -653,24 +645,57 @@ input[type="submit"] {
   
   }
 
-
   .Homeimage {
     background-color: black;
     background-image: url("./links/-1.jpg");
-    background-size: 150%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     height: 100vh;
   }
 
+}
 
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 640px) {
+  .Homeimage {
+    background-color: black;
+    background-image: url("./links/-1.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
   
-  /* *:not(path):not(g) {
-    color:                    hsla(210, 100%, 100%, 0.9) !important;
-    background:               hsla(210, 100%,  50%, 0.5) !important;
-    outline:    solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
-    box-shadow: none !important;
-} */
+  .footer {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    font-weight:500;
+    color: black;
+    text-align: center;
+
+
+  }
+  
+  .rightFooter {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 50px;
+    font-weight:500;
+    color: black;
+    text-align: center;
+
+
+  }
 
 }

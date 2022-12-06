@@ -9,7 +9,6 @@ const [showText1, setShowText1] = useState(false);
 const [showText2, setShowText2] = useState(false);
 const [showText3, setShowText3] = useState(false);
 const [showText4, setShowText4] = useState(false);
-const [showText5, setShowText5] = useState(false);
 // const onClick = () => setShowText(true);
 
 
@@ -50,10 +49,6 @@ const Text2 = () =>
       Creative Director,advertising, marketing, and digital teams
       on all aspects of each brand's direction and design. 
     </p>
-  </div>;
-
-const Text3 = () => 
-  <div className='text'>
     <h2>
       ARE Media, Auckland
     </h2>
@@ -68,7 +63,8 @@ const Text3 = () =>
     </p>
   </div>;
 
-const Text4 = () => 
+
+const Text3 = () => 
   <div className='text'>
     <h2>
       March 2021 - February 2022
@@ -85,7 +81,7 @@ const Text4 = () =>
     </p>
   </div>;
 
-const Text5 = () => 
+const Text4 = () => 
   <div className='text'>
     <h2>
       Freelance Designer 
@@ -130,20 +126,14 @@ const Text5 = () =>
           <button onClick={() => setShowText2(!showText2)}>GRAPHIC DESIGNER <img src="./Dropdown fat.png"/></button>
           {showText2 ? <Text2 /> : null}
         </div>
-
         <div>
-          <button onClick={() => setShowText3(!showText3)}>GRAPHIC DESIGNER <img src="./Dropdown fat.png"/></button>
+          <button onClick={() => setShowText3(!showText3)}>CREATIVE DESIGNER/ART DIRECTOR <img src="./Dropdown fat.png"/></button>
           {showText3 ? <Text3 /> : null}
         </div>
 
         <div>
-          <button onClick={() => setShowText4(!showText4)}>CREATIVE DESIGNER/ART DIRECTOR <img src="./Dropdown fat.png"/></button>
+          <button onClick={() => setShowText4(!showText4)}>FREELANCE DESIGNER/UNIVERSITY STUDIES <img src="./Dropdown fat.png"/></button>
           {showText4 ? <Text4 /> : null}
-        </div>
-
-        <div>
-          <button onClick={() => setShowText5(!showText5)}>FREELANCE DESIGNER/UNIVERSITY STUDIES <img src="./Dropdown fat.png"/></button>
-          {showText5 ? <Text5 /> : null}
         </div>
  
       </div>
